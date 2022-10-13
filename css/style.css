@@ -1,0 +1,24 @@
+
+
+.homework {
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 2px solid purple;
+ background-color: black;
+
+}
+.homework__text {
+  color:#fff;
+  font-size: 50px;
+  transition:all 1.3s linear 0s;
+  cursor: pointer;
+  transform: scale(1);
+
+}
+.homework__text:hover{
+   color:purple;
+   transform:scale(1.5);
+ 
+}
